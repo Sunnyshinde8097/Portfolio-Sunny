@@ -93,25 +93,36 @@ const SkillList = styled.div`
 `
 
 const SkillItem = styled.div`
-  font-size: 16px;
-  font-weight: 400;
-  color: ${({ theme }) => theme.text_primary + 80};
-  border: 1px solid ${({ theme }) => theme.text_primary + 80};
-  border-radius: 12px;
-  padding: 12px 16px;
+  font-size: 15px;
+  font-weight: 500;
+  color: ${({ theme }) => theme.text_primary};
+  border: 1px solid ${({ theme }) => theme.text_primary + 40};
+  border-radius: 10px;
+  padding: 10px 14px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 8px;
+  gap: 10px;
+  background: ${({ theme }) => theme.card_light};
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: rgba(133, 76, 230, 0.25) 0px 4px 12px;
+    border-color: #854CE6;
+  }
+
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 8px 12px;
   }
-  @media (max-width: 500px) {
-    font-size: 14px;
-    padding: 6px 12px;
-  }
-`
+`;
+
+const SkillIcon = styled.img`
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+`;
+
 const Skills = () => {
   return (
     <Container id="skills">
@@ -124,11 +135,14 @@ const Skills = () => {
             <Skill>
               <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
-                {skill.skills.map((item) => (
-                  <SkillItem>
-                    {item.name}
-                  </SkillItem>
-                ))}
+              {skill.skills.map((item) => (
+  <SkillItem key={item.name}>
+    {item.image && (
+      <SkillIcon src={item.image} alt={item.name} />
+    )}
+    {item.name}
+  </SkillItem>
+))}
               </SkillList>
             </Skill>
           ))}
