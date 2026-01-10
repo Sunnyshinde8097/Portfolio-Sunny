@@ -1,3 +1,5 @@
+import jswStarImage from "../ProjectImage/JSWPaints.png";
+
 export const Bio = {
   name: "Sunny Shinde",
   roles: ["Full Stack Developer", ".Net Developer", "Senior Software Engineer"],
@@ -178,23 +180,25 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Vexa",
-    date: "Oct 2022 - Present",
+    title: "JSW Star",
+    date: "March 2024 - Present",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+    "JSW Star is a premium, color-coated steel roofing and cladding solution from JSW Steel—India’s leading integrated steel producer known for sustainable, high-quality steel across flat and long product ranges. Built for Indian weather conditions, JSW Star combines high-strength base steel with advanced coatings to deliver long-lasting protection, vibrant aesthetics, and low maintenance for homes, industrial sheds, and commercial projects",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+    jswStarImage,
+    images: [ 
+      require("../ProjectImage/JSWPaints.png"), 
+        require("../ProjectImage/JSWPaints2.png"), 
+        require("../ProjectImage/JSWPaints3.png")
+  ],
     tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "SQL Server",
+      ".NET MVC",
+      ".NET WEB API",
+      "Entity FrameWork"
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+    webapp: "https://jswpaintsstar.woohoo.in/login",
   },
   {
     id: 2,
