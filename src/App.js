@@ -13,7 +13,6 @@ import ProjectDetails from "./Components/ProjectDetails";
 import styled from "styled-components";
 import Projects from "./Components/Projects/index.js";
 
-
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
@@ -27,14 +26,35 @@ const Wrapper = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
 `;
 
+const ToggleButton = styled.button`
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: ${({ theme }) => theme.primary};
+  color: #fff;
+  font-weight: 600;
+  z-index: 1000;
+`;
+
 function App() {
-  const [darkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
+
+  const toggleTheme = () => {
+    setDarkMode(!darkMode);
+  };
 
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
+        <ToggleButton onClick={toggleTheme}>
+          {darkMode ? "🌙 Dark Mode" : "☀️ Light Mode"}
+        </ToggleButton>
         <Body>
           <HeroSection />
           <Wrapper>
