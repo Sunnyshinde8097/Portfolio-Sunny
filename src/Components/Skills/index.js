@@ -136,13 +136,13 @@ const Skills = () => {
               <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
               {skill.skills.map((item) => (
-  <SkillItem key={item.name}>
-    {item.image && (
-      <SkillIcon src={item.image} alt={item.name} />
-    )}
-    {item.name}
-  </SkillItem>
-))}
+                 <SkillItem key={item.name}>
+                {item.image && (
+                   <SkillIcon src={item.image} alt={item.name} />
+               )}
+              {item.name}
+              </SkillItem>
+               ))}
               </SkillList>
             </Skill>
           ))}

@@ -78,7 +78,32 @@ export const skills = [
         name: "PostgreSQL",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
+      },{
+        name: "Oracle SQL",
+         image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg",
       },
+      {
+        name: "NoSQL",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
+      },
+      {
+        name: "Dapper",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg",
+      },
+      {
+        name: "LINQ",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg",
+      },
+      {
+        name: "Entity Framework",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg",
+      }
+      ,
+      {
+        name: "Java",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+      }
+      ,
       {
         name: "Firebase",
         image:
@@ -86,6 +111,28 @@ export const skills = [
       },
     ],
   },
+  {
+    title: "Version Control Tools",
+    skills: [
+      {
+        name: "BitBucket",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bitbucket/bitbucket-original.svg",
+      }, 
+      {
+        name: "Git",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
+      },
+      {
+        name: "SVN",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/subversion/subversion-original.svg",
+      },
+      {
+        name: "Linux",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg",
+      },
+      
+    ]
+  }
 ];
 
 export const experiences = [
@@ -223,29 +270,40 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Buckoid",
-    date: "Dec 2021 - Apr 2022",
+    title: "Mankind Elite Club",
+    date: "Dec 2024 - Present",
     description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+    "Mankind Elite Club (also known as Mankind Navratna Elite Club) is a loyalty and rewards program designed for retailers. Through its mobile app, members can track purchases, monitor loyalty points in real time, and redeem rewards seamlessly. The platform provides a transparent and user‑friendly interface, helping retailers stay updated on their progress toward incentives and manage their benefits conveniently",
     image:
-      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
+       require("../ProjectImage/Mankind/mankind-login.jpeg"),
+    images:[
+      require("../ProjectImage/Mankind/Mankind-UPIQRScanner.jpeg"), 
+      require("../ProjectImage/Mankind/Mankind-PaymentGatway.jpeg"),
+      require("../ProjectImage/Mankind/Mankind-Profile.jpeg"),
+      require("../ProjectImage/Mankind/Mankind-Transaction.jpeg"),
+      require("../ProjectImage/Mankind/Mankind-VisUpload.jpeg"),
+      require("../ProjectImage/Mankind/Mankind-Redemption.jpeg"),
+      require("../ProjectImage/Mankind/mankind-Menu.jpeg"),
+      require("../ProjectImage/Mankind/Mankind-UPIQRScanner.jpeg"),
+    ],
+    tags: ["React js", "Flutter", ".NET Web API", ".Net MVC","SQL Server","LinQ","Entity frameWork","Dapper"],
     category: "android app",
-    github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+    webapp: "https://play.google.com/store/apps/details?id=com.mankind.mankind_navratna&hl=en-US",
   },
   {
     id: 10,
-    title: "Job Finding App",
-    date: "Jun 2023 - Jul 2023",
+    title: "Greenply",
+    date: "Jun 2024 - Present",
     description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
+      "Greenply Green Samriddhi is a loyalty and rewards program designed for retailers, contractors, and carpenters associated with Greenply Industries. The initiative allows registered partners to earn points on every purchase of Greenply products through authorized dealers. These points can be tracked via a user‑friendly mobile app and redeemed for a wide range of gifts and vouchers. The program strengthens Greenply’s bond with its trade partners by offering transparent benefits, digital tracking, and additional incentives such as in‑shop meetings, recognition certificates, and exclusive rewards for top performers",
     image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
+      require("../ProjectImage/Greenply/Greenply-Login.jpeg"),
+      images:[
+        require("../ProjectImage/Greenply/Greenply-Login.jpeg")
+      ],
+      tags: ["React js", "Flutter", ".NET Web API", ".Net MVC","SQL Server","LinQ","Entity frameWork","Dapper"],
     category: "android app",
-    github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
+    webapp: "https://play.google.com/store/apps/details?id=com.greenply.greensamriddhiapp&hl=en-US",
   },
 ];
 
