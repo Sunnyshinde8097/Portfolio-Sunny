@@ -126,7 +126,7 @@ export const experiences = [
 
 export const projects = [
   {
-    id: 9,
+    id: 1,
     title: "Titan",
     date: "Jun 2024 - Dec 2025",
     description:
@@ -149,7 +149,7 @@ export const projects = [
     webapp: "https://test.saluto.in/TitanEkyam/Login",
   },
   {
-    id: 0,
+    id: 2,
     title: "PrincePipe",
     date: "Sept 2024 - Present",
     description:
@@ -167,7 +167,7 @@ export const projects = [
     webapp: "https://test.saluto.in/PrincePipes/Login",
   },
   {
-    id: 1,
+    id: 3,
     title: "JSW Star",
     date: "March 2024 - Present",
     description:
@@ -187,6 +187,39 @@ export const projects = [
     ],
     category: "web app",
     webapp: "https://jswpaintsstar.woohoo.in/login",
+  },
+  {
+    id: 4,
+    title: "Chess Game",
+    date: "March 2024 - May 2024",
+    description:
+       "The Chess Game is a strategic two-player board game implemented in React.js. It recreates the classic experience of chess with an interactive digital interface, allowing players to move pieces via drag-and-drop and follow the official rules of the game",
+    image:
+      require("../ProjectImage/Chess Game/Chess game.png"),
+    images: [ 
+      require("../ProjectImage/Chess Game/Chess game.png"), 
+  ],
+    tags: [
+      "React JS"
+    ],
+    category: "web app",
+    webapp: "https://candid-salmiakki-facbf2.netlify.app/",
+  }, {
+    id: 5,
+    title: "Ludo Game",
+    date: "June 2024 - July 2024",
+    description:
+       "Ludo is a race-style board game that blends luck and strategy. Each player controls four tokens, starting from their base, and must move them around the board and into the home column. The first player to successfully move all four tokens into the center home wins the game",
+    image:
+      require("../ProjectImage/Ludo/Ludo game.png"),
+    images: [ 
+      require("../ProjectImage/Ludo/Ludo game.png"), 
+  ],
+    tags: [
+      "React JS"
+    ],
+    category: "web app",
+    webapp: "https://effervescent-bombolone-be6dcd.netlify.app/",
   },
   {
     id: 3,
