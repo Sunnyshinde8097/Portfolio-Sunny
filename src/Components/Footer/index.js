@@ -72,10 +72,11 @@ function Footer() {
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
+          <NavLink href="#projects">Project</NavLink>
           <NavLink href="#experience">Experience</NavLink>
         </Nav>
         <Copyright>
-          &copy; 2025 Sunny Shinde. All rights reserved.
+          &copy; 2026 Sunny Shinde. All rights reserved.
         </Copyright>
 
       </FooterWrapper>

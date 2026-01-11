@@ -116,9 +116,9 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
 `;
 
-/* Custom Pop-Up Styles */
 const PopupOverlay = styled.div`
   position: fixed;
   top: 0;
@@ -166,15 +166,70 @@ const Spinner = styled.div`
   }
 `;
 
+const ErrorText = styled.p`
+  color: red;
+  font-size: 14px;
+  margin: 0;
+`;
+
+const WordCounter = styled.p`
+  font-size: 14px;
+  color: ${({ theme }) => theme.text_secondary};
+  margin: 0;
+`;
+
 const Contact = () => {
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [errors, setErrors] = useState({});
+  const [messageWordCount, setMessageWordCount] = useState(0);
   const form = useRef();
+
+  const isValidEmail = (email) => {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regex.test(email);
+  };
+
+  const wordCount = (text) => {
+    return text.trim().split(/\s+/).filter(Boolean).length;
+  };
+
+  const validateForm = () => {
+    const newErrors = {};
+    const email = form.current.from_email.value;
+    const name = form.current.from_name.value;
+    const subject = form.current.subject.value;
+    const message = form.current.message.value;
+
+    if (!email) {
+      newErrors.email = "Email is required";
+    } else if (!isValidEmail(email)) {
+      newErrors.email = "Please enter a valid email address";
+    }
+
+    if (!name) newErrors.name = "Name is required";
+    if (!subject) newErrors.subject = "Subject is required";
+
+    if (!message) {
+      newErrors.message = "Message is required";
+    } else if (wordCount(message) < 10) {
+      newErrors.message = "Message must be at least 10 words";
+    }
+
+    return newErrors;
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    setLoading(true); // show loading popup
+    const validationErrors = validateForm();
+    if (Object.keys(validationErrors).length > 0) {
+      setErrors(validationErrors);
+      return;
+    }
+
+    setErrors({});
+    setLoading(true);
 
     const formData = {
       from_email: form.current.from_email.value,
@@ -192,6 +247,7 @@ const Contact = () => {
           setLoading(false);
           setOpen(true);
           form.current.reset();
+          setMessageWordCount(0);
         },
         (error) => {
           setLoading(false);
@@ -208,9 +264,19 @@ const Contact = () => {
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
+          {errors.email && <ErrorText>{errors.email}</ErrorText>}
           <ContactInput placeholder="Your Name" name="from_name" />
+          {errors.name && <ErrorText>{errors.name}</ErrorText>}
           <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
+          {errors.subject && <ErrorText>{errors.subject}</ErrorText>}
+          <ContactInputMessage
+            placeholder="Message (10+ words)"
+            rows="6"
+            name="message"
+            onChange={(e) => setMessageWordCount(wordCount(e.target.value))}
+          />
+          <WordCounter>Word count: {messageWordCount}</WordCounter>
+          {errors.message && <ErrorText>{errors.message}</ErrorText>}
           <ContactButton type="submit" value="Send" />
         </ContactForm>
 
