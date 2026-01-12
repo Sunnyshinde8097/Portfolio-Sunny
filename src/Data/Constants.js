@@ -1,4 +1,4 @@
-
+import ResumePDF from "../Resume.pdf";
 export const Bio = {
   name: "Sunny Shinde",
   roles: ["Full Stack Developer", ".Net Developer", "Senior Software Engineer"],
@@ -6,12 +6,12 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/sunnyshinde8097/",
   resume:
-    "https://drive.google.com/drive/u/1/folders/1iQxnsHe5F-up8cws_mvyt7yYbhK4W05u",
+  ResumePDF,
   linkedin: "https://www.linkedin.com/in/sunny-shinde-9a342514a/",
 };
 
 export const skills = [
-  {
+  { 
     title: "Frontend",
     skills: [
       {
