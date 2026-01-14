@@ -1,12 +1,11 @@
-import styled from 'styled-components';
-
+import styled from "styled-components";
+import { FaLinkedin, FaInstagram, FaGithub, FaTwitter } from "react-icons/fa";
 
 const FooterContainer = styled.div`
   width: 100%;
   padding: 2rem 0;
   display: flex;
   justify-content: center;
-  //background: linear-gradient(100.26deg, rgba(0, 102, 255, 0.05) 42.33%, rgba(150, 0, 225, 0.05) 127.07%);
 `;
 
 const FooterWrapper = styled.footer`
@@ -44,7 +43,7 @@ const Nav = styled.nav`
 `;
 
 const NavLink = styled.a`
-color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.text_primary};
   text-decoration: none;
   font-size: 1.2rem;
   transition: color 0.2s ease-in-out;
@@ -56,6 +55,20 @@ color: ${({ theme }) => theme.text_primary};
   }
 `;
 
+const SocialIcons = styled.div`
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+`;
+
+const SocialLink = styled.a`
+  color: ${({ theme }) => theme.text_primary};
+  font-size: 1.5rem;
+  transition: color 0.3s ease-in-out;
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+  }
+`;
 
 const Copyright = styled.p`
   margin-top: 1.5rem;
@@ -75,10 +88,42 @@ function Footer() {
           <NavLink href="#projects">Project</NavLink>
           <NavLink href="#experience">Experience</NavLink>
         </Nav>
+
+        {/* Social Media Icons */}
+        <SocialIcons>
+          <SocialLink
+            href="https://www.linkedin.com/in/sunny-shinde"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin />
+          </SocialLink>
+          <SocialLink
+            href="https://www.instagram.com/sunnyshinde8097/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram />
+          </SocialLink>
+          <SocialLink
+            href="https://github.com/Sunnyshinde8097"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub />
+          </SocialLink>
+          <SocialLink
+            href="https://x.com/ShindeSun97297"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaTwitter />
+          </SocialLink>
+        </SocialIcons>
+
         <Copyright>
           &copy; 2026 Sunny Shinde. All rights reserved.
         </Copyright>
-
       </FooterWrapper>
     </FooterContainer>
   );
