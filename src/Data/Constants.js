@@ -250,6 +250,22 @@ export const projects = [
     ],
     category: "web app",
     webapp: "https://candid-salmiakki-facbf2.netlify.app/",
+  },  {
+    id: 5,
+    title: "Weather App",
+    date: "March 2025 - May 2025",
+    description:
+       "The Weather App is a dynamic application built with React.js  and powered by the OpenWeather API. It provides real-time weather updates for any city worldwide, featuring an intuitive interface where users can search locations and instantly view temperature, humidity, wind speed, and conditions. Animated icons and background visuals enhance the experience, making weather data engaging and interactive.",
+    image:
+      require("../ProjectImage/Weather/Weatherapp.png"),
+    images: [ 
+      require("../ProjectImage/Weather/Weatherapp.png"), 
+  ],
+    tags: [
+      "React JS"
+    ],
+    category: "web app",
+    webapp: "https://weather-git-master-avenger1.vercel.app/",
   }, {
     id: 5,
     title: "Ludo Game",
