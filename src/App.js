@@ -12,9 +12,9 @@ import Experience from "./Components/Experience";
 import Contact from "./Components/Contacts";
 import Footer from "./Components/Footer";
 import ProjectDetails from "./Components/ProjectDetails";
+import ErrorBoundary from "./ErrorBoundar";   // ✅ Import ErrorBoundary
 import "./App.css";
 
-// Styled wrappers
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
@@ -37,10 +37,8 @@ const Wrapper = styled.div`
 `;
 
 function App() {
-  // Dark/Light mode state
   const [darkMode, setDarkMode] = useState(true);
 
-  // Persist theme choice in localStorage
   useEffect(() => {
     const savedTheme = localStorage.getItem("darkMode");
     if (savedTheme !== null) {
@@ -52,47 +50,35 @@ function App() {
     localStorage.setItem("darkMode", darkMode);
   }, [darkMode]);
 
-  // Project modal state
   const [openModal, setOpenModal] = useState({ state: false, project: null });
-
-  // Toggle theme handler
   const toggleTheme = () => setDarkMode(!darkMode);
 
   return (
-    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-      <Router basename={process.env.PUBLIC_URL}>
-        {/* Navbar receives darkMode + toggleTheme */}
-        <Navbar darkMode={darkMode} toggleTheme={toggleTheme} />
-
-        <Body>
-          {/* Hero Section */}
-          <HeroSection />
-
-          {/* Skills + Projects + Experience */}
-          <Wrapper>
-            <Skills />
-            <Projects setOpenModal={setOpenModal} />
-            <Experience />
-          </Wrapper>
-
-          {/* Contact Section */}
-          <Wrapper>
-            <Contact />
-          </Wrapper>
-
-          {/* Footer */}
-          <Footer />
-
-          {/* Project Details Modal */}
-          {openModal.state && (
-            <ProjectDetails
-              openModal={openModal}
-              setOpenModal={setOpenModal}
-            />
-          )}
-        </Body>
-      </Router>
-    </ThemeProvider>
+    <ErrorBoundary>
+      <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
+        <Router basename={process.env.PUBLIC_URL}>
+          <Navbar darkMode={darkMode} toggleTheme={toggleTheme} />
+          <Body>
+            <HeroSection />
+            <Wrapper>
+              <Skills />
+              <Projects setOpenModal={setOpenModal} />
+              <Experience />
+            </Wrapper>
+            <Wrapper>
+              <Contact />
+            </Wrapper>
+            <Footer />
+            {openModal.state && (
+              <ProjectDetails
+                openModal={openModal}
+                setOpenModal={setOpenModal}
+              />
+            )}
+          </Body>
+        </Router>
+      </ThemeProvider>
+    </ErrorBoundary>
   );
 }
 
