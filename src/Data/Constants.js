@@ -282,6 +282,22 @@ export const projects = [
     ],
     category: "web app",
     webapp: "https://effervescent-bombolone-be6dcd.netlify.app/",
+  }, {
+    id: 5,
+    title: "Loan Calculator",
+    date: "Jan 2026 - Feb 2026",
+    description:
+       "A loan calculator helps you quickly estimate monthly payments, total interest, and repayment schedules based on loan amount, interest rate, and tenure. It simplifies financial planning by giving clear insights into borrowing costs",
+    image:
+      require("../ProjectImage/Loan Calculator/LoanCalculator.png"),
+    images: [ 
+      require("../ProjectImage/Loan Calculator/LoanCalculator.png"), 
+  ],
+    tags: [
+      "React JS"
+    ],
+    category: "web app",
+    webapp: "https://admirable-souffle-6b5631.netlify.app/",
   },
   {
     id: 3,
