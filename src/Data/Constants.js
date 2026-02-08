@@ -336,6 +336,23 @@ export const projects = [
     category: "android app",
     webapp: "https://play.google.com/store/apps/details?id=com.greenply.greensamriddhiapp&hl=en-US",
   },
+  {
+    id: 10,
+    title: "GreenplyBandhan",
+    date: "Jun 2024 - Present",
+    description:
+      "Greenply Bandhan is a loyalty and rewards program designed for retailers, contractors, and carpenters associated with Greenply Industries. The initiative allows registered partners to earn points on every purchase of Greenply products through authorized dealers. These points can be tracked via a user‑friendly mobile app and redeemed for a wide range of gifts and vouchers. The program strengthens Greenply’s bond with its trade partners by offering transparent benefits, digital tracking, and additional incentives such as in‑shop meetings, recognition certificates, and exclusive rewards for top performers",
+    image:
+    require("../ProjectImage/GreenplyBandhan/LOginpage.png"),
+      images:[
+        require("../ProjectImage/GreenplyBandhan/LOginpage.png"),
+        require("../ProjectImage/GreenplyBandhan/Redemption.png"),
+        require("../ProjectImage/GreenplyBandhan/USermater.png"),
+      ],
+      tags: ["React js", "Flutter", ".NET Web API", ".Net MVC","SQL Server","LinQ","Entity frameWork","Dapper"],
+    category: "android app",
+    webapp: "https://play.google.com/store/apps/details?id=com.greenply.greenply_bandhan&hl=en-US",
+  },
 ];
 
 export const TimeLineData = [
