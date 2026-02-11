@@ -297,7 +297,7 @@ export const projects = [
       "React JS"
     ],
     category: "web app",
-    webapp: "https://admirable-souffle-6b5631.netlify.app/",
+    webapp: "https://loancal-seven.vercel.app/",
   },
   {
     id: 3,
