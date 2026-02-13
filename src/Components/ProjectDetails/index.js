@@ -69,7 +69,7 @@ const Button = styled.button`
 const ProjectModal = ({ openModal, setOpenModal }) => {
   const project = openModal?.project;
   const [showImages, setShowImages] = useState(false);
-
+  const defaultImage = "./src/ProjectImage.jpg";
   return (
     <Modal
       open={!!openModal.state}
@@ -85,7 +85,8 @@ const ProjectModal = ({ openModal, setOpenModal }) => {
           {/* Toggle between details and gallery */}
           {!showImages ? (
             <>
-              <Image src={project?.image} alt={project?.title} />
+               <Image src={project?.image} alt={project?.title}
+                onError={(e) => (e.target.src = defaultImage)}/>
               <h2>{project?.title}</h2>
               <p>{project?.date}</p>
               <p>{project?.description}</p>

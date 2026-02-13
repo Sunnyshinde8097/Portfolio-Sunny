@@ -297,7 +297,7 @@ export const projects = [
       "React JS"
     ],
     category: "web app",
-    webapp: "https://loancal-seven.vercel.app/",
+    webapp: "https://loancal-seven.vercel.app/",ss
   },
   {
     id: 3,
