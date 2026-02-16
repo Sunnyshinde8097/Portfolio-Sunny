@@ -69,6 +69,11 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg",
       },
       {
+        name: "ML.NET",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg",
+      }
+      ,
+      {
         name: "MySQL",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
@@ -101,7 +106,7 @@ export const skills = [
       {
         name: "Java",
         image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      }
+      },      
       ,
       {
         name: "Firebase",
@@ -297,7 +302,7 @@ export const projects = [
       "React JS"
     ],
     category: "web app",
-    webapp: "https://loancal-seven.vercel.app/",ss
+    webapp: "https://loancal-seven.vercel.app/",
   },
   {
     id: 3,
