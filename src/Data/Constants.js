@@ -197,7 +197,7 @@ export const projects = [
       "Entity Framework"
     ],
     category: "web app",
-    webapp: "https://test.saluto.in/TitanEkyam/Login",
+    webapp: "https://test.saluto1.in/TitanEkyam/Login",
   },
   {
     id: 2,
@@ -215,7 +215,7 @@ export const projects = [
     ],
     tags: ["React Js", ".NET MVC", "SQL Server", "JQuery"],
     category: "web app",
-    webapp: "https://test.saluto.in/PrincePipes/Login",
+    webapp: "https://test.saluto1.in/PrincePipes/Login",
   },
   {
     id: 3,
@@ -237,7 +237,7 @@ export const projects = [
       "Entity FrameWork"
     ],
     category: "web app",
-    webapp: "https://jswpaintsstar.woohoo.in/login",
+    webapp: "https://3jswpaintsstar.woohoo.in/login",
   },
   {
     id: 4,
@@ -324,7 +324,7 @@ export const projects = [
     ],
     tags: ["React js", "Flutter", ".NET Web API", ".Net MVC","SQL Server","LinQ","Entity frameWork","Dapper"],
     category: "android app",
-    webapp: "https://play.google.com/store/apps/details?id=com.mankind.mankind_navratna&hl=en-US",
+    webapp: "https:/1/play.google.com/store/apps/details?id=com.mankind.mankind_navratna&hl=en-US",
   },
   {
     id: 10,
@@ -339,7 +339,7 @@ export const projects = [
       ],
       tags: ["React js", "Flutter", ".NET Web API", ".Net MVC","SQL Server","LinQ","Entity frameWork","Dapper"],
     category: "android app",
-    webapp: "https://play.google.com/store/apps/details?id=com.greenply.greensamriddhiapp&hl=en-US",
+    webapp: "https:/1/play.google.com/store/apps/details?id=com.greenply.greensamriddhiapp&hl=en-US",
   },
   {
     id: 10,
@@ -356,7 +356,7 @@ export const projects = [
       ],
       tags: ["React js", "Flutter", ".NET Web API", ".Net MVC","SQL Server","LinQ","Entity frameWork","Dapper"],
     category: "android app",
-    webapp: "https://play.google.com/store/apps/details?id=com.greenply.greenply_bandhan&hl=en-US",
+    webapp: "https:/1/play.google.com/store/apps/details?id=com.greenply.greenply_bandhan&hl=en-US",
   },
 ];
 
