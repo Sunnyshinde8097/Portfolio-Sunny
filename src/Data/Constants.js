@@ -5,12 +5,12 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/sunnyshinde8097/",
-  resume:ResumePDF,
+  resume: ResumePDF,
   linkedin: "https://www.linkedin.com/in/sunny-shinde-9a342514a/",
 };
 
 export const skills = [
-  { 
+  {
     title: "Frontend",
     skills: [
       {
@@ -82,9 +82,9 @@ export const skills = [
         name: "PostgreSQL",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
-      },{
+      }, {
         name: "Oracle SQL",
-         image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg",
       },
       {
         name: "NoSQL",
@@ -106,7 +106,7 @@ export const skills = [
       {
         name: "Java",
         image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },      
+      },
       ,
       {
         name: "Firebase",
@@ -121,7 +121,7 @@ export const skills = [
       {
         name: "BitBucket",
         image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bitbucket/bitbucket-original.svg",
-      }, 
+      },
       {
         name: "Git",
         image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
@@ -134,7 +134,7 @@ export const skills = [
         name: "Linux",
         image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg",
       },
-      
+
     ]
   }
 ];
@@ -181,15 +181,15 @@ export const projects = [
     title: "Titan",
     date: "Jun 2024 - Dec 2025",
     description:
-    "Titan Ekyam is a smart web app designed to simplify task tracking and boost workplace productivity Admins can monitor employee activities, while employees log tasks with ease through a clean interface",
+      "Titan Ekyam is a smart web app designed to simplify task tracking and boost workplace productivity Admins can monitor employee activities, while employees log tasks with ease through a clean interface",
     image:
       require("../ProjectImage/Titan/Titan-Login.png"),
-      Images:[
-        require("../ProjectImage/Titan/Titan-Dashboard.png"),
-        require("../ProjectImage/Titan/Titan-Dashboard.png"),
-        require("../ProjectImage/Titan/Titan-Dashboard.png"),
-        require("../ProjectImage/Titan/Titan-Dashboard.png"),
-      ],
+    Images: [
+      require("../ProjectImage/Titan/Titan-Dashboard.png"),
+      require("../ProjectImage/Titan/Titan-Dashboard.png"),
+      require("../ProjectImage/Titan/Titan-Dashboard.png"),
+      require("../ProjectImage/Titan/Titan-Dashboard.png"),
+    ],
     tags: [
       ".NET Web API MVC",
       "JQuey",
@@ -206,8 +206,8 @@ export const projects = [
     description:
       "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
     image:
-    require("../ProjectImage/PrincePipe/PrincePipe-DashBoader.png"),
-    images:[
+      require("../ProjectImage/PrincePipe/PrincePipe-DashBoader.png"),
+    images: [
       require("../ProjectImage/PrincePipe/Princepipe-Profile.png"),
       require("../ProjectImage/PrincePipe/Prince-Pipes-My-Ledges.png"),
       require("../ProjectImage/PrincePipe/PrincePipe-PinCodeMapping.png"),
@@ -222,14 +222,14 @@ export const projects = [
     title: "JSW Star",
     date: "March 2024 - Present",
     description:
-    "JSW Star is a premium, color-coated steel roofing and cladding solution from JSW Steel—India’s leading integrated steel producer known for sustainable, high-quality steel across flat and long product ranges. Built for Indian weather conditions, JSW Star combines high-strength base steel with advanced coatings to deliver long-lasting protection, vibrant aesthetics, and low maintenance for homes, industrial sheds, and commercial projects",
-    image:require("../ProjectImage/JSW/JSWPaints.png"),
-    images: [ 
-      require("../ProjectImage/JSW/JSW-Profile.png"), 
-        require("../ProjectImage/JSW/JSW-Redemption.png"), 
-        require("../ProjectImage/JSW/JSW-Usermaster.png"),
-        require("../ProjectImage/JSW/JSWPaints.png")
-  ],
+      "JSW Star is a premium, color-coated steel roofing and cladding solution from JSW Steel—India’s leading integrated steel producer known for sustainable, high-quality steel across flat and long product ranges. Built for Indian weather conditions, JSW Star combines high-strength base steel with advanced coatings to deliver long-lasting protection, vibrant aesthetics, and low maintenance for homes, industrial sheds, and commercial projects",
+    image: require("../ProjectImage/JSW/JSWPaints.png"),
+    images: [
+      require("../ProjectImage/JSW/JSW-Profile.png"),
+      require("../ProjectImage/JSW/JSW-Redemption.png"),
+      require("../ProjectImage/JSW/JSW-Usermaster.png"),
+      require("../ProjectImage/JSW/JSWPaints.png")
+    ],
     tags: [
       "SQL Server",
       ".NET MVC",
@@ -244,28 +244,28 @@ export const projects = [
     title: "Chess Game",
     date: "March 2024 - May 2024",
     description:
-       "The Chess Game is a strategic two-player board game implemented in React.js. It recreates the classic experience of chess with an interactive digital interface, allowing players to move pieces via drag-and-drop and follow the official rules of the game",
+      "The Chess Game is a strategic two-player board game implemented in React.js. It recreates the classic experience of chess with an interactive digital interface, allowing players to move pieces via drag-and-drop and follow the official rules of the game",
     image:
       require("../ProjectImage/Chess Game/Chess game.png"),
-    images: [ 
-      require("../ProjectImage/Chess Game/Chess game.png"), 
-  ],
+    images: [
+      require("../ProjectImage/Chess Game/Chess game.png"),
+    ],
     tags: [
       "React JS"
     ],
     category: "web app",
     webapp: "https://candid-salmiakki-facbf2.netlify.app/",
-  },  {
+  }, {
     id: 5,
     title: "Weather App",
     date: "March 2025 - May 2025",
     description:
-       "The Weather App is a dynamic application built with React.js  and powered by the OpenWeather API. It provides real-time weather updates for any city worldwide, featuring an intuitive interface where users can search locations and instantly view temperature, humidity, wind speed, and conditions. Animated icons and background visuals enhance the experience, making weather data engaging and interactive.",
+      "The Weather App is a dynamic application built with React.js  and powered by the OpenWeather API. It provides real-time weather updates for any city worldwide, featuring an intuitive interface where users can search locations and instantly view temperature, humidity, wind speed, and conditions. Animated icons and background visuals enhance the experience, making weather data engaging and interactive.",
     image:
       require("../ProjectImage/Weather/Weatherapp.png"),
-    images: [ 
-      require("../ProjectImage/Weather/Weatherapp.png"), 
-  ],
+    images: [
+      require("../ProjectImage/Weather/Weatherapp.png"),
+    ],
     tags: [
       "React JS"
     ],
@@ -276,12 +276,12 @@ export const projects = [
     title: "Ludo Game",
     date: "June 2024 - July 2024",
     description:
-       "Ludo is a race-style board game that blends luck and strategy. Each player controls four tokens, starting from their base, and must move them around the board and into the home column. The first player to successfully move all four tokens into the center home wins the game",
+      "Ludo is a race-style board game that blends luck and strategy. Each player controls four tokens, starting from their base, and must move them around the board and into the home column. The first player to successfully move all four tokens into the center home wins the game",
     image:
       require("../ProjectImage/Ludo/Ludo game.png"),
-    images: [ 
-      require("../ProjectImage/Ludo/Ludo game.png"), 
-  ],
+    images: [
+      require("../ProjectImage/Ludo/Ludo game.png"),
+    ],
     tags: [
       "React JS"
     ],
@@ -292,12 +292,12 @@ export const projects = [
     title: "Loan Calculator",
     date: "Jan 2026 - Feb 2026",
     description:
-       "A loan calculator helps you quickly estimate monthly payments, total interest, and repayment schedules based on loan amount, interest rate, and tenure. It simplifies financial planning by giving clear insights into borrowing costs",
+      "A loan calculator helps you quickly estimate monthly payments, total interest, and repayment schedules based on loan amount, interest rate, and tenure. It simplifies financial planning by giving clear insights into borrowing costs",
     image:
       require("../ProjectImage/Loan Calculator/LoanCalculator.png"),
-    images: [ 
-      require("../ProjectImage/Loan Calculator/LoanCalculator.png"), 
-  ],
+    images: [
+      require("../ProjectImage/Loan Calculator/LoanCalculator.png"),
+    ],
     tags: [
       "React JS"
     ],
@@ -309,11 +309,11 @@ export const projects = [
     title: "Mankind Elite Club",
     date: "Dec 2024 - Present",
     description:
-    "Mankind Elite Club (also known as Mankind Navratna Elite Club) is a loyalty and rewards program designed for retailers. Through its mobile app, members can track purchases, monitor loyalty points in real time, and redeem rewards seamlessly. The platform provides a transparent and user‑friendly interface, helping retailers stay updated on their progress toward incentives and manage their benefits conveniently",
+      "Mankind Elite Club (also known as Mankind Navratna Elite Club) is a loyalty and rewards program designed for retailers. Through its mobile app, members can track purchases, monitor loyalty points in real time, and redeem rewards seamlessly. The platform provides a transparent and user‑friendly interface, helping retailers stay updated on their progress toward incentives and manage their benefits conveniently",
     image:
-       require("../ProjectImage/Mankind/mankind-login.jpeg"),
-    images:[
-      require("../ProjectImage/Mankind/Mankind-UPIQRScanner.jpeg"), 
+      require("../ProjectImage/Mankind/mankind-login.jpeg"),
+    images: [
+      require("../ProjectImage/Mankind/Mankind-UPIQRScanner.jpeg"),
       require("../ProjectImage/Mankind/Mankind-PaymentGatway.jpeg"),
       require("../ProjectImage/Mankind/Mankind-Profile.jpeg"),
       require("../ProjectImage/Mankind/Mankind-Transaction.jpeg"),
@@ -322,7 +322,7 @@ export const projects = [
       require("../ProjectImage/Mankind/mankind-Menu.jpeg"),
       require("../ProjectImage/Mankind/Mankind-UPIQRScanner.jpeg"),
     ],
-    tags: ["React js", "Flutter", ".NET Web API", ".Net MVC","SQL Server","LinQ","Entity frameWork","Dapper"],
+    tags: ["React js", "Flutter", ".NET Web API", ".Net MVC", "SQL Server", "LinQ", "Entity frameWork", "Dapper"],
     category: "android app",
     webapp: "https:/1/play.google.com/store/apps/details?id=com.mankind.mankind_navratna&hl=en-US",
   },
@@ -334,10 +334,10 @@ export const projects = [
       "Greenply Green Samriddhi is a loyalty and rewards program designed for retailers, contractors, and carpenters associated with Greenply Industries. The initiative allows registered partners to earn points on every purchase of Greenply products through authorized dealers. These points can be tracked via a user‑friendly mobile app and redeemed for a wide range of gifts and vouchers. The program strengthens Greenply’s bond with its trade partners by offering transparent benefits, digital tracking, and additional incentives such as in‑shop meetings, recognition certificates, and exclusive rewards for top performers",
     image:
       require("../ProjectImage/Greenply/Greenply-Login.jpeg"),
-      images:[
-        require("../ProjectImage/Greenply/Greenply-Login.jpeg")
-      ],
-      tags: ["React js", "Flutter", ".NET Web API", ".Net MVC","SQL Server","LinQ","Entity frameWork","Dapper"],
+    images: [
+      require("../ProjectImage/Greenply/Greenply-Login.jpeg")
+    ],
+    tags: ["React js", "Flutter", ".NET Web API", ".Net MVC", "SQL Server", "LinQ", "Entity frameWork", "Dapper"],
     category: "android app",
     webapp: "https:/1/play.google.com/store/apps/details?id=com.greenply.greensamriddhiapp&hl=en-US",
   },
@@ -348,13 +348,13 @@ export const projects = [
     description:
       "Greenply Bandhan is a loyalty and rewards program designed for retailers, contractors, and carpenters associated with Greenply Industries. The initiative allows registered partners to earn points on every purchase of Greenply products through authorized dealers. These points can be tracked via a user‑friendly mobile app and redeemed for a wide range of gifts and vouchers. The program strengthens Greenply’s bond with its trade partners by offering transparent benefits, digital tracking, and additional incentives such as in‑shop meetings, recognition certificates, and exclusive rewards for top performers",
     image:
-    require("../ProjectImage/GreenplyBandhan/LOginpage.png"),
-      images:[
-        require("../ProjectImage/GreenplyBandhan/LOginpage.png"),
-        require("../ProjectImage/GreenplyBandhan/Redemption.png"),
-        require("../ProjectImage/GreenplyBandhan/USermater.png"),
-      ],
-      tags: ["React js", "Flutter", ".NET Web API", ".Net MVC","SQL Server","LinQ","Entity frameWork","Dapper"],
+      require("../ProjectImage/GreenplyBandhan/LOginpage.png"),
+    images: [
+      require("../ProjectImage/GreenplyBandhan/LOginpage.png"),
+      require("../ProjectImage/GreenplyBandhan/Redemption.png"),
+      require("../ProjectImage/GreenplyBandhan/USermater.png"),
+    ],
+    tags: ["React js", "Flutter", ".NET Web API", ".Net MVC", "SQL Server", "LinQ", "Entity frameWork", "Dapper"],
     category: "android app",
     webapp: "https:/1/play.google.com/store/apps/details?id=com.greenply.greenply_bandhan&hl=en-US",
   },
@@ -365,5 +365,44 @@ export const TimeLineData = [
   { year: 2018, text: "Worked as a freelance developer" },
   { year: 2019, text: "Founded JavaScript Mastery" },
   { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
 ];
+
+export const certifications = [
+  {
+    id: 1,
+    title: "IBM JAVA Fundamentals",
+    issuer: "IBM",
+    date: "Jan 2023",
+    description: "Mastered core Java programming concepts, including object-oriented programming principles, data types, logic structures, and standard libraries. Validated foundational knowledge required for enterprise-ready software development.",
+    image: require("../ProjectImage/Certifications/IBM Java Fundamental.png"),
+    link: "https://courses.itvedant.skillsnetwork.site/certificates/958e13878c5d48f281af952c89c66772",
+  },
+  {
+    id: 2,
+    title: "Angular 18",
+    issuer: "IT Vedant",
+    date: "Jan 2024",
+    description: "Gained proficient knowledge of the Angular 18 framework, covering component-driven architecture, reactivity, advanced routing, RxJS, and building robust, scalable single-page web applications.",
+    image: require("../ProjectImage/Certifications/Angular.png"),
+    link: "https://drive.google.com/file/d/1207-9LpQtKRoELMhmVW1owKooGckW60y/view",
+  },
+  {
+    id: 3,
+    title: "React",
+    issuer: "IT Vedant",
+    date: "Sep 2023",
+    description: "Successfully solved complex UI problems and demonstrated proficiency in React, including functional components, hooks, component lifecycle, and complex state management.",
+    image: require("../ProjectImage/Certifications/React.png"),
+    link: "https://drive.google.com/drive/folders/1OLrCMmvIB07ytGpZhRnc2oakIQVFPhCS",
+  },
+  {
+    id: 4,
+    title: "SQL Server",
+    issuer: "IT Vedant",
+    date: "Sep 2023",
+    description: "Successfully solved complex UI problems and demonstrated proficiency in React, including functional components, hooks, component lifecycle, and complex state management.",
+    image: require("../ProjectImage/Certifications/SQL.png"),
+    link: "https://drive.google.com/drive/folders/1qO0G7N0iwoJsdL40GGS7NqgRPtxmK43b",
+  }
+];
+

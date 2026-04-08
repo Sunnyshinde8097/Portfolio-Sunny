@@ -37,6 +37,7 @@ const Navbar = ({ darkMode, toggleTheme }) => {
           <NavLink href="#about">About</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
+          <NavLink href='#certifications'>Certifications</NavLink>
           <NavLink href='#experience'>Experience</NavLink>
         </NavItems>
         <ButtonContainer>
@@ -49,6 +50,8 @@ const Navbar = ({ darkMode, toggleTheme }) => {
           <MobileMenu isOpen={isOpen}>
             <MobileLink href="#about" onClick={() => setIsOpen(!isOpen)}>About</MobileLink>
             <MobileLink href='#skills' onClick={() => setIsOpen(!isOpen)}>Skills</MobileLink>
+            <MobileLink href='#projects' onClick={() => setIsOpen(!isOpen)}>Projects</MobileLink>
+            <MobileLink href='#certifications' onClick={() => setIsOpen(!isOpen)}>Certifications</MobileLink>
             <MobileLink href='#experience' onClick={() => setIsOpen(!isOpen)}>Experience</MobileLink>
             <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
             <ToggleButton onClick={toggleTheme}>

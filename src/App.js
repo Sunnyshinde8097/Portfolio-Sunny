@@ -8,6 +8,7 @@ import Navbar from "./Components/NavBar";
 import HeroSection from "./Components/HeroSection";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
+import Certifications from "./Components/Certifications";
 import Experience from "./Components/Experience";
 import Contact from "./Components/Contacts";
 import Footer from "./Components/Footer";
@@ -63,6 +64,7 @@ function App() {
             <Wrapper>
               <Skills />
               <Projects setOpenModal={setOpenModal} />
+              <Certifications />
               <Experience />
             </Wrapper>
             <Wrapper>

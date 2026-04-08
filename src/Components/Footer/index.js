@@ -86,7 +86,8 @@ function Footer() {
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#projects">Project</NavLink>
-          <NavLink href="#experience">Experience</NavLink>
+          <NavLink href="#experience">Experience</NavLink>  
+          <NavLink href="#certifications">Certifications</NavLink>
         </Nav>
 
         {/* Social Media Icons */}
