@@ -107,7 +107,6 @@ export const skills = [
         name: "Java",
         image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
       },
-      ,
       {
         name: "Firebase",
         image:
