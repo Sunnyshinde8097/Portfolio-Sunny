@@ -402,6 +402,14 @@ export const certifications = [
     description: "Successfully solved complex UI problems and demonstrated proficiency in React, including functional components, hooks, component lifecycle, and complex state management.",
     image: require("../ProjectImage/Certifications/SQL.png"),
     link: "https://drive.google.com/drive/folders/1qO0G7N0iwoJsdL40GGS7NqgRPtxmK43b",
+  },{
+    id: 5,
+    title: "AI Agent Certification",
+    issuer: "SimpleLearn",
+    date: "Apr 2025",
+    description: "Successfully completed certification in Agentic AI, demonstrating the ability to design and implement autonomous agents for real‑world applications. Gained hands‑on expertise in multi‑agent workflows, decision‑making, and tool integration using modern frameworks. Strengthened coding skills by building projects that showcase LLM orchestration, API interaction, and scalable agent design",
+    image: require("../ProjectImage/Certifications/AI Agent Certification.png"),
+   // link: "https://drive.google.com/drive/folders/1qO0G7N0iwoJsdL40GGS7NqgRPtxmK43b",
   }
 ];
 
