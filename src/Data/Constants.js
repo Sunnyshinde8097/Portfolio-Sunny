@@ -236,7 +236,7 @@ export const projects = [
       "Entity FrameWork"
     ],
     category: "web app",
-    webapp: "https://3jswpaintsstar.woohoo.in/login",
+    webapp: "https://jswpaintsstar.woohoo.in/login",
   },
   {
     id: 4,
