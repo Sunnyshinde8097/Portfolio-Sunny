@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import CertificationCard from '../Cards/CertificationCard'
 import { certifications } from '../../Data/Constants'
@@ -61,9 +61,29 @@ const CardContainer = styled.div`
     margin-top: 30px;
 `;
 
+const ToggleButton = styled.button`
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: ${({ theme }) => theme.primary};
+    color: #fff;
+    transition: 0.3s ease;
+    &:hover {
+        background: ${({ theme }) => theme.primary_hover};
+    }
+`;
+
 const Certifications = () => {
-    // Return null or empty if there are no certifications
+    const [showAll, setShowAll] = useState(false);
+
     if (!certifications || certifications.length === 0) return null;
+
+    // Show only 3 initially unless "Show More" is clicked
+    const displayedCertifications = showAll ? certifications : certifications.slice(0, 3);
 
     return (
         <Container id="certifications">
@@ -73,10 +93,15 @@ const Certifications = () => {
                     Here are some of the certifications I have earned to improve my skills and stay updated with the latest technologies.
                 </Desc>
                 <CardContainer>
-                    {certifications.map((certification, index) => (
+                    {displayedCertifications.map((certification, index) => (
                         <CertificationCard key={index} certification={certification} />
                     ))}
                 </CardContainer>
+                {certifications.length > 3 && (
+                    <ToggleButton onClick={() => setShowAll(!showAll)}>
+                        {showAll ? 'Show Less' : 'Show More'}
+                    </ToggleButton>
+                )}
             </Wrapper>
         </Container>
     )
