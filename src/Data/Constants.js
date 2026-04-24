@@ -175,19 +175,20 @@ export const experiences = [
 ];
 
 export const projects = [
+ 
   {
     id: 1,
-    title: "Titan",
+    title: "JK Cement uphaar",
     date: "Jun 2024 - Dec 2025",
     description:
-      "Titan Ekyam is a smart web app designed to simplify task tracking and boost workplace productivity Admins can monitor employee activities, while employees log tasks with ease through a clean interface",
+      "JK Uphaar is a smart web app that simplifies task tracking and boosts workplace productivity. Admins can monitor employee activities in real time, while employees log tasks effortlessly through a clean, user-friendly interface.",
     image:
-      require("../ProjectImage/Titan/Titan-Login.png"),
-    Images: [
-      require("../ProjectImage/Titan/Titan-Dashboard.png"),
-      require("../ProjectImage/Titan/Titan-Dashboard.png"),
-      require("../ProjectImage/Titan/Titan-Dashboard.png"),
-      require("../ProjectImage/Titan/Titan-Dashboard.png"),
+      require("../ProjectImage/JKCement/Home.png"),
+    images: [
+      require("../ProjectImage/JKCement/Home.png"),
+      require("../ProjectImage/JKCement/Dashboard.png"),
+      require("../ProjectImage/JKCement/Scheme Master.png"),
+      require("../ProjectImage/JKCement/Transaction Report.png")
     ],
     tags: [
       ".NET Web API MVC",
@@ -196,7 +197,7 @@ export const projects = [
       "Entity Framework"
     ],
     category: "web app",
-    webapp: "https://test.saluto1.in/TitanEkyam/Login",
+    webapp: "https://test.saluto.in/JKcement/login",
   },
   {
     id: 2,
@@ -214,7 +215,7 @@ export const projects = [
     ],
     tags: ["React Js", ".NET MVC", "SQL Server", "JQuery"],
     category: "web app",
-    webapp: "https://test.saluto1.in/PrincePipes/Login",
+    webapp: "https://test.saluto.in/PrincePipes/Login",
   },
   {
     id: 3,
@@ -240,6 +241,29 @@ export const projects = [
   },
   {
     id: 4,
+    title: "Titan",
+    date: "Jun 2024 - Dec 2025",
+    description:
+      "Titan Ekyam is a smart web app designed to simplify task tracking and boost workplace productivity Admins can monitor employee activities, while employees log tasks with ease through a clean interface",
+    image:
+      require("../ProjectImage/Titan/Titan-Login.png"),
+    images: [
+      require("../ProjectImage/Titan/Titan-Dashboard.png"),
+      require("../ProjectImage/Titan/Titan-Dashboard.png"),
+      require("../ProjectImage/Titan/Titan-Dashboard.png"),
+      require("../ProjectImage/Titan/Titan-Dashboard.png"),
+    ],
+    tags: [
+      ".NET Web API MVC",
+      "JQuey",
+      "Sql Server",
+      "Entity Framework"
+    ],
+    category: "web app",
+    webapp: "https://test.saluto.in/TitanEkyam/Login",
+  },
+  {
+    id: 5,
     title: "Chess Game",
     date: "March 2024 - May 2024",
     description:
@@ -255,7 +279,7 @@ export const projects = [
     category: "web app",
     webapp: "https://candid-salmiakki-facbf2.netlify.app/",
   }, {
-    id: 5,
+    id: 6,
     title: "Weather App",
     date: "March 2025 - May 2025",
     description:
@@ -271,7 +295,7 @@ export const projects = [
     category: "web app",
     webapp: "https://weather-git-master-avenger1.vercel.app/",
   }, {
-    id: 5,
+    id: 7,
     title: "Ludo Game",
     date: "June 2024 - July 2024",
     description:
@@ -287,7 +311,7 @@ export const projects = [
     category: "web app",
     webapp: "https://effervescent-bombolone-be6dcd.netlify.app/",
   }, {
-    id: 5,
+    id: 8,
     title: "Loan Calculator",
     date: "Jan 2026 - Feb 2026",
     description:
@@ -304,7 +328,7 @@ export const projects = [
     webapp: "https://loancal-seven.vercel.app/",
   },
   {
-    id: 3,
+    id: 9,
     title: "Mankind Elite Club",
     date: "Dec 2024 - Present",
     description:
@@ -341,7 +365,7 @@ export const projects = [
     webapp: "https:/1/play.google.com/store/apps/details?id=com.greenply.greensamriddhiapp&hl=en-US",
   },
   {
-    id: 10,
+    id: 11,
     title: "GreenplyBandhan",
     date: "Jun 2024 - Present",
     description:
