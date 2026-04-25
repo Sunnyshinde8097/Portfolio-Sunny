@@ -111,7 +111,12 @@ export const skills = [
         name: "Firebase",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
-      },
+      }, 
+      {
+        name: "Azure",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg"
+      }
+      
     ],
   },
   {
