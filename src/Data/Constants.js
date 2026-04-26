@@ -269,6 +269,29 @@ export const projects = [
   },
   {
     id: 5,
+    title: "Sobha Developer",
+    date: "May 2024 - Oct 2024",
+    description:
+      "Sobha Developer is a smart web app designed to simplify task tracking and boost workplace productivity Admins can monitor employee activities, while employees log tasks with ease through a clean interface",
+    image:
+      require("../ProjectImage/Sobha/Screenshot 2026-04-25 095735.png"),
+    images: [
+      require("../ProjectImage/Sobha/Screenshot 2026-04-25 095735.png")
+    ],
+    tags: [
+       "Angular",
+      ".NET Core",
+      "Dapper",
+      "Javascript",
+      "Typescript",
+      "Sql Server",
+      "Entity Framework"
+    ],
+    category: "web app",
+    webapp: "https://test.saluto.in/Sobha/Login",
+  },
+  {
+    id: 6,
     title: "Chess Game",
     date: "March 2024 - May 2024",
     description:
@@ -284,7 +307,7 @@ export const projects = [
     category: "web app",
     webapp: "https://candid-salmiakki-facbf2.netlify.app/",
   }, {
-    id: 6,
+    id: 7,
     title: "Weather App",
     date: "March 2025 - May 2025",
     description:
@@ -300,11 +323,11 @@ export const projects = [
     category: "web app",
     webapp: "https://weather-git-master-avenger1.vercel.app/",
   }, {
-    id: 7,
+    id: 8,
     title: "Ludo Game",
     date: "June 2024 - July 2024",
     description:
-      "Ludo is a race-style board game that blends luck and strategy. Each player controls four tokens, starting from their base, and must move them around the board and into the home column. The first player to successfully move all four tokens into the center home wins the game",
+      "Ludo  is a race-style board game that blends luck and strategy. Each player controls four tokens, starting from their base, and must move them around the board and into the home column. The first player to successfully move all four tokens into the center home wins the game",
     image:
       require("../ProjectImage/Ludo/Ludo game.png"),
     images: [
@@ -316,7 +339,7 @@ export const projects = [
     category: "web app",
     webapp: "https://effervescent-bombolone-be6dcd.netlify.app/",
   }, {
-    id: 8,
+    id: 9,
     title: "Loan Calculator",
     date: "Jan 2026 - Feb 2026",
     description:
@@ -333,7 +356,7 @@ export const projects = [
     webapp: "https://loancal-seven.vercel.app/",
   },
   {
-    id: 9,
+    id: 10,
     title: "Mankind Elite Club",
     date: "Dec 2024 - Present",
     description:
@@ -355,7 +378,7 @@ export const projects = [
     webapp: "https:/1/play.google.com/store/apps/details?id=com.mankind.mankind_navratna&hl=en-US",
   },
   {
-    id: 10,
+    id: 11,
     title: "Greenply",
     date: "Jun 2024 - Present",
     description:
@@ -370,7 +393,7 @@ export const projects = [
     webapp: "https:/1/play.google.com/store/apps/details?id=com.greenply.greensamriddhiapp&hl=en-US",
   },
   {
-    id: 11,
+    id: 12,
     title: "GreenplyBandhan",
     date: "Jun 2024 - Present",
     description:
