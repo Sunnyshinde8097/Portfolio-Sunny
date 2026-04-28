@@ -111,7 +111,12 @@ export const skills = [
         name: "Firebase",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
-      },
+      }, 
+      {
+        name: "Azure",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg"
+      }
+      
     ],
   },
   {
@@ -175,19 +180,20 @@ export const experiences = [
 ];
 
 export const projects = [
+ 
   {
     id: 1,
-    title: "Titan",
+    title: "JK Cement uphaar",
     date: "Jun 2024 - Dec 2025",
     description:
-      "Titan Ekyam is a smart web app designed to simplify task tracking and boost workplace productivity Admins can monitor employee activities, while employees log tasks with ease through a clean interface",
+      "JK Uphaar is a smart web app that simplifies task tracking and boosts workplace productivity. Admins can monitor employee activities in real time, while employees log tasks effortlessly through a clean, user-friendly interface.",
     image:
-      require("../ProjectImage/Titan/Titan-Login.png"),
-    Images: [
-      require("../ProjectImage/Titan/Titan-Dashboard.png"),
-      require("../ProjectImage/Titan/Titan-Dashboard.png"),
-      require("../ProjectImage/Titan/Titan-Dashboard.png"),
-      require("../ProjectImage/Titan/Titan-Dashboard.png"),
+      require("../ProjectImage/JKCement/Home.png"),
+    images: [
+      require("../ProjectImage/JKCement/Home.png"),
+      require("../ProjectImage/JKCement/Dashboard.png"),
+      require("../ProjectImage/JKCement/Scheme Master.png"),
+      require("../ProjectImage/JKCement/Transaction Report.png")
     ],
     tags: [
       ".NET Web API MVC",
@@ -196,7 +202,7 @@ export const projects = [
       "Entity Framework"
     ],
     category: "web app",
-    webapp: "https://test.saluto1.in/TitanEkyam/Login",
+    webapp: "https://test.saluto.in/JKcement/login",
   },
   {
     id: 2,
@@ -214,7 +220,7 @@ export const projects = [
     ],
     tags: ["React Js", ".NET MVC", "SQL Server", "JQuery"],
     category: "web app",
-    webapp: "https://test.saluto1.in/PrincePipes/Login",
+    webapp: "https://test.saluto.in/PrincePipes/Login",
   },
   {
     id: 3,
@@ -298,7 +304,7 @@ export const projects = [
     title: "Ludo Game",
     date: "June 2024 - July 2024",
     description:
-      "Ludo is a race-style board game that blends luck and strategy. Each player controls four tokens, starting from their base, and must move them around the board and into the home column. The first player to successfully move all four tokens into the center home wins the game",
+      "Ludo  is a race-style board game that blends luck and strategy. Each player controls four tokens, starting from their base, and must move them around the board and into the home column. The first player to successfully move all four tokens into the center home wins the game",
     image:
       require("../ProjectImage/Ludo/Ludo game.png"),
     images: [
@@ -349,7 +355,7 @@ export const projects = [
     webapp: "https:/1/play.google.com/store/apps/details?id=com.mankind.mankind_navratna&hl=en-US",
   },
   {
-    id: 10,
+    id: 11,
     title: "Greenply",
     date: "Jun 2024 - Present",
     description:
@@ -392,6 +398,15 @@ export const TimeLineData = [
 export const certifications = [
   {
     id: 1,
+    title: "C# Advance Certification",
+    issuer: "Udemy",
+    date: "Apr 2024",
+    description: "Successfully completed certification in C#, demonstrating the ability to design and implement autonomous agents for real‑world applications. Gained hands‑on expertise in multi‑agent workflows, decision‑making, and tool integration using modern frameworks. Strengthened coding skills by building projects that showcase LLM orchestration, API interaction, and scalable agent design",
+    image: require("../ProjectImage/Certifications/C# Certification.png"),
+    link: "https://www.udemy.com/certificate/UC-d474a2b1-8b0f-4208-bfb0-bf721dc55d01/",
+  },
+  {
+    id: 2,
     title: "IBM JAVA Fundamentals",
     issuer: "IBM",
     date: "Jan 2023",
@@ -400,7 +415,7 @@ export const certifications = [
     link: "https://courses.itvedant.skillsnetwork.site/certificates/958e13878c5d48f281af952c89c66772",
   },
   {
-    id: 2,
+    id: 3,
     title: "Angular 18",
     issuer: "IT Vedant",
     date: "Jan 2024",
@@ -409,7 +424,7 @@ export const certifications = [
     link: "https://drive.google.com/file/d/1207-9LpQtKRoELMhmVW1owKooGckW60y/view",
   },
   {
-    id: 3,
+    id: 4,
     title: "React",
     issuer: "IT Vedant",
     date: "Sep 2023",
@@ -418,7 +433,7 @@ export const certifications = [
     link: "https://drive.google.com/drive/folders/1OLrCMmvIB07ytGpZhRnc2oakIQVFPhCS",
   },
   {
-    id: 4,
+    id: 5,
     title: "SQL Server",
     issuer: "IT Vedant",
     date: "Sep 2023",
@@ -426,7 +441,7 @@ export const certifications = [
     image: require("../ProjectImage/Certifications/SQL.png"),
     link: "https://drive.google.com/drive/folders/1qO0G7N0iwoJsdL40GGS7NqgRPtxmK43b",
   },{
-    id: 5,
+    id: 6,
     title: "AI Agent Certification",
     issuer: "SimpleLearn",
     date: "Apr 2025",
