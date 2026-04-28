@@ -246,52 +246,29 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Titan",
-    date: "Jun 2024 - Dec 2025",
+    title: "Devans Modern Breweries",
+    date: "March 2024 - March 2025",
     description:
-      "Titan Ekyam is a smart web app designed to simplify task tracking and boost workplace productivity Admins can monitor employee activities, while employees log tasks with ease through a clean interface",
-    image:
-      require("../ProjectImage/Titan/Titan-Login.png"),
+      "Devans Modern Breweries is a premium, color-coated steel roofing and cladding solution from D M B—India’s leading integrated steel producer known for sustainable, high-quality steel across flat and long product ranges. Built for Indian weather conditions, JSW Star combines high-strength base steel with advanced coatings to deliver long-lasting protection, vibrant aesthetics, and low maintenance for homes, industrial sheds, and commercial projects",
+    image: require("../ProjectImage/DMB/DMB.png"),
     images: [
-      require("../ProjectImage/Titan/Titan-Dashboard.png"),
-      require("../ProjectImage/Titan/Titan-Dashboard.png"),
-      require("../ProjectImage/Titan/Titan-Dashboard.png"),
-      require("../ProjectImage/Titan/Titan-Dashboard.png"),
+      require("../ProjectImage/DMB/Approve QR bar Code.png"),
+      require("../ProjectImage/DMB/DMB.png"),
+      require("../ProjectImage/DMB/QR master.png"),
+      require("../ProjectImage/DMB/Approve QR bar Code.png")
     ],
     tags: [
-      ".NET Web API MVC",
-      "JQuey",
-      "Sql Server",
-      "Entity Framework"
+      "SQL Server",
+      "Angular",
+      ".NET Core 8",
+      ".NET WEB API",
+      "Entity FrameWork"
     ],
     category: "web app",
-    webapp: "https://test.saluto.in/TitanEkyam/Login",
+    webapp: "https://test.saluto1.in/DMB/Login",
   },
   {
     id: 5,
-    title: "Sobha Developer",
-    date: "May 2024 - Oct 2024",
-    description:
-      "Sobha Developer is a smart web app designed to simplify task tracking and boost workplace productivity Admins can monitor employee activities, while employees log tasks with ease through a clean interface",
-    image:
-      require("../ProjectImage/Sobha/Screenshot 2026-04-25 095735.png"),
-    images: [
-      require("../ProjectImage/Sobha/Screenshot 2026-04-25 095735.png")
-    ],
-    tags: [
-       "Angular",
-      ".NET Core",
-      "Dapper",
-      "Javascript",
-      "Typescript",
-      "Sql Server",
-      "Entity Framework"
-    ],
-    category: "web app",
-    webapp: "https://test.saluto.in/Sobha/Login",
-  },
-  {
-    id: 6,
     title: "Chess Game",
     date: "March 2024 - May 2024",
     description:
@@ -307,7 +284,7 @@ export const projects = [
     category: "web app",
     webapp: "https://candid-salmiakki-facbf2.netlify.app/",
   }, {
-    id: 7,
+    id: 6,
     title: "Weather App",
     date: "March 2025 - May 2025",
     description:
@@ -323,7 +300,7 @@ export const projects = [
     category: "web app",
     webapp: "https://weather-git-master-avenger1.vercel.app/",
   }, {
-    id: 8,
+    id: 7,
     title: "Ludo Game",
     date: "June 2024 - July 2024",
     description:
@@ -339,7 +316,7 @@ export const projects = [
     category: "web app",
     webapp: "https://effervescent-bombolone-be6dcd.netlify.app/",
   }, {
-    id: 9,
+    id: 8,
     title: "Loan Calculator",
     date: "Jan 2026 - Feb 2026",
     description:
@@ -356,7 +333,7 @@ export const projects = [
     webapp: "https://loancal-seven.vercel.app/",
   },
   {
-    id: 10,
+    id: 9,
     title: "Mankind Elite Club",
     date: "Dec 2024 - Present",
     description:
