@@ -146,9 +146,24 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    role: "Senior Software Engineer",
+    role: "Software Engineer",
+    company: "ICICI Lombard Pvt. Ltd.",
+    date: "May 2026 - Present",
+    desc: "As a software developer, I specialize in ASP.NET core combined with C# for robust backend development and Microsoft SQL Server for effective database management. I oversee the complete lifecycle of web application development, including design, implementation, and continuous maintenance. .",
+    skills: [
+      ".Net Core",
+      "SQL server",
+      "JQuery",
+      "LinQ",
+      "Dapper",
+      "JavaScript",
+    ],
+  },
+  {
+    id: 1,
+    role: "Software Engineer",
     company: "Webiknows Solution Pvt. Ltd.",
-    date: "May 2024 - Present",
+    date: "May 2024 - April 2026",
     desc: "As a software developer, I specialize in ASP.NET core combined with C# for robust backend development and Microsoft SQL Server for effective database management. I oversee the complete lifecycle of web application development, including design, implementation, and continuous maintenance. .",
     skills: [
       ".Net Core",
