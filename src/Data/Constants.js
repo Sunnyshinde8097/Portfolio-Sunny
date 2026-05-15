@@ -147,6 +147,7 @@ export const experiences = [
   {
     id: 0,
     role: "Software Engineer",
+    img: require("../ExperienceImage/ICICLombard.png"),
     company: "ICICI Lombard Pvt. Ltd.",
     date: "May 2026 - Present",
     desc: "As a software developer, I specialize in ASP.NET core combined with C# for robust backend development and Microsoft SQL Server for effective database management. I oversee the complete lifecycle of web application development, including design, implementation, and continuous maintenance. .",
@@ -162,6 +163,7 @@ export const experiences = [
   {
     id: 1,
     role: "Software Engineer",
+    img: require("../ExperienceImage/Webiknowns IT Solution pvt ltd.png"),
     company: "Webiknows Solution Pvt. Ltd.",
     date: "May 2024 - April 2026",
     desc: "As a software developer, I specialize in ASP.NET core combined with C# for robust backend development and Microsoft SQL Server for effective database management. I oversee the complete lifecycle of web application development, including design, implementation, and continuous maintenance. .",
@@ -175,8 +177,9 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
-    role: "Software Engineer",
+    id: 2,
+    role: "Jr.Software Engineer",
+    img: require("../ExperienceImage/MasstechbussinessSolution pvt ltd.png"),
     company: "MassTech solution Pvt LTd",
     date: "Feb 2023 - April 2024",
     desc: "As a software developer, my expertise lies in leveraging ASP.NET paired with C# for backend development and Microsoft SQL Server for proficient database management. Within this role, I am accountable for the complete spectrum of web application development, encompassing design, implementation, and ongoing maintenance.. On the frontend, I am proficient in Angular, React.js, jQuery, and JavaScript, enabling me to deliver dynamic and user-friendly interfaces.   an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
