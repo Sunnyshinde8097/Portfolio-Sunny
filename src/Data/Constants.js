@@ -150,14 +150,15 @@ export const experiences = [
     img: require("../ExperienceImage/ICICLombard.png"),
     company: "ICICI Lombard Pvt. Ltd.",
     date: "May 2026 - Present",
-    desc: "As a software developer, I specialize in ASP.NET core combined with C# for robust backend development and Microsoft SQL Server for effective database management. I oversee the complete lifecycle of web application development, including design, implementation, and continuous maintenance. .",
+    desc: "As a software developer, I specialize in ASP.NET core combined with C# for robust backend development and Microsoft SQL Server for effective database management. I oversee the complete lifecycle of web application development, including design, implementation, and continuous maintenance. Banking Application for Payment Processing System.",
     skills: [
       ".Net Core",
       "SQL server",
-      "JQuery",
+      "Angular 21",
       "LinQ",
       "Dapper",
       "JavaScript",
+      "ML.NET"
     ],
   },
   {
